@@ -21,6 +21,7 @@ def remove_strawberry(contacts)
       #   if flavor = "strawberry"
       #     flavor.delete
       favorite_ice_cream_flavors.delete("strawberry")
+      return favorite_ice_cream_flavors
     end
   end
 end
